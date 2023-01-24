@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintLite", "PaintLite\PaintLite.csproj", "{A886F481-4CE9-4612-B55F-3DFB3AA3E50C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A886F481-4CE9-4612-B55F-3DFB3AA3E50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A886F481-4CE9-4612-B55F-3DFB3AA3E50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A886F481-4CE9-4612-B55F-3DFB3AA3E50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A886F481-4CE9-4612-B55F-3DFB3AA3E50C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C31EB7C3-361A-4FFC-B78C-713985407C93}
+	EndGlobalSection
+EndGlobal
