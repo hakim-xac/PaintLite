@@ -30,6 +30,12 @@ namespace PaintLite
             return false;
         }
 
+        private void colorSelect()
+        {
+            ColorDialog cd = new();
+            if (cd.ShowDialog() == DialogResult.OK) history_color_ = cd.Color;
+            cd.Dispose();
+        }
         private void historyInit()
         {
 
@@ -284,9 +290,17 @@ namespace PaintLite
 
         private void colorToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ColorDialog cd = new();
-            if (cd.ShowDialog() == DialogResult.OK) history_color_ = cd.Color;
-            cd.Dispose();
+            colorSelect();
+        }
+
+        private void toolStripButton4_Click(object sender, EventArgs e)
+        {
+            colorSelect();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (!checkIsImageInit()) return;
         }
     }
 }
